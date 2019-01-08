@@ -188,12 +188,6 @@ Golang的MySql代理，致力于简化MySQL分库分表操作；能够让DBA通�
 
 一个可以快速写json的库（但由于是基于字符串 tokenizer定位的，对于某些特殊字符可能坑）
 
-## Excel
-
-### [davyxu/tabtoy](https://github.com/davyxu/tabtoy)
-
-竞品……
-
 ## 命令行
 
 ### [spf13/cobra](https://github.com/spf13/cobra)
@@ -235,6 +229,10 @@ Golang的MySql代理，致力于简化MySQL分库分表操作；能够让DBA通�
 ### [hajimehoshi/ebiten](https://github.com/hajimehoshi/ebiten)
 
 一个已经商业化的引擎，做了多款的手游开发。支持的平台非常广，用这个游戏引擎做出的游戏能够支持 PC 操作系统如 Windows、Mac、Linux、FreeBSD，也支持手机操作系统 Android、iOS，还支持 Web 开发如 GopherJS、WebAssembly。它是一个生产级的引擎。
+
+### [davyxu/tabtoy](https://github.com/davyxu/tabtoy)
+
+一个面向游戏开发的Excel导表工具，功能完备，设计思路让我学到了很多。
 
 ## 程序设计
 
