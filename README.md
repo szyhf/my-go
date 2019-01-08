@@ -36,6 +36,10 @@ Golang基于DFA算法实现的敏感词过滤
 
 golang版hystrix，一个容错库，旨在隔离指向远程系统，服务和第三方库的请求，杜绝级联故障，并在复杂的分布式系统中实现弹性，毕竟在分布式系统中，故障是不可避免的。
 
+### [gorilla/websocket](https://github.com/gorilla/websocket)
+
+官方对ws的支持有点忧桑吖，还好有……
+
 ## 链路追踪
 
 ### [jaegertracing/jaeger](https://github.com/jaegertracing/jaeger)
@@ -50,7 +54,7 @@ Uber开源的go版Zipkin。
 
 ### [containous/traefik](https://github.com/containous/traefik)
 
-go语言版nginx，天然支持集成k8s。
+go语言版nginx，天然支持集成k8s，自带容器发现能力。
 
 ### [youtube/doorman](https://github.com/youtube/doorman)
 
@@ -59,6 +63,16 @@ Doorman 是一个客户端速率限制的解决方案，客户端与共享资源
 ### [GoKu](https://github.com/eolinker/GoKu-API-Gateway)
 
 悟空API网关（开源版），是国内首个开源go语言API网关，帮助企业进行API服务治理与API性能安全维护，为企业数字化赋能。
+
+## 分布式
+
+### [etcd-io/etcd](https://github.com/etcd-io/etcd)
+
+感觉不用多解释了，只是为了找网址记的。
+
+### [lni/dragonboat](https://github.com/lni/dragonboat)
+
+一个完整的Raft算法库，自带很多工具的样子，据说有足够完整的测试集合以及实际应用，而且有中文文档😶
 
 ## 消息队列
 
@@ -74,7 +88,7 @@ golang实现的消息队列。
 
 一个基于消息发布的异步的任务队列。
 
-## 数据库
+## 数据库（关系型）
 
 ### [pingcap/TiDB](https://github.com/pingcap/tidb)
 
@@ -82,9 +96,35 @@ golang实现的消息队列。
 
 自带分布式的关系数据库，基本兼容MySql。
 
+### [flike/kingshard](https://github.com/flike/kingshard)
+
+Golang的MySql代理，致力于简化MySQL分库分表操作；能够让DBA通过kingshard轻松平滑地实现MySQL数据库扩容。
+
+### [flike/kingbus](https://github.com/flike/kingbus)
+
+基于raft强一致协议实现的分布式MySQL binlog 存储系统。它能够充当一个MySQL Slave从真正的Master上同步binglog，并存储在分布式集群中；同时又充当一个MySQL Master将集群中的binlog 同步给其他Slave。
+
+## 数据库（时序型）
+
 ### [influxdata/influxdb](https://github.com/influxdata/influxdb)
 
-时序数据库。
+嗯很出名不解释。
+
+### [prometheus/prometheus](https://github.com/prometheus/prometheus)
+
+嗯很出名不解释。
+
+## 数据库（键值对型）
+
+### [boltdb/bolt](https://github.com/boltdb/bolt)
+
+嗯……
+
+## 缓存
+
+### [golang/groupcache](https://github.com/golang/groupcache)
+
+带filter能力的Cache。
 
 ## Docker
 
@@ -96,11 +136,31 @@ golang实现的消息队列。
 
 目前遇到最好用的DockerUI。
 
+### [bcicen/ctop](https://github.com/bcicen/ctop)
+
+控制台工具，可以比较好的展示当前运行的容器情况。
+
+### [goharbor/harbor](https://github.com/goharbor/harbor)
+
+一个相对重量级的镜像管理系统，用于自建镜像，相应的能力也更强。
+
 ## 数据结构
 
 ### [jolestar/go-commons-pool](https://github.com/jolestar/go-commons-pool)
 
 模拟`Apache Commons Pool`实现的对象池。
+
+### [ahmetb/go-linq](https://github.com/ahmetb/go-linq)
+
+省事神器吖不解释，懂得自然懂。
+
+### [PuerkitoBio/goquery](https://github.com/PuerkitoBio/goquery)
+
+以类似jQuery的表达处理解析html的工具（可用于爬虫）。
+
+### [gocolly/colly](https://github.com/gocolly/colly)
+
+爬虫工具，直接结合`PuerkitoBio/goquery`服用效果更佳。
 
 ## 机器学习
 
@@ -128,14 +188,56 @@ golang实现的消息队列。
 
 一个可以快速写json的库（但由于是基于字符串 tokenizer定位的，对于某些特殊字符可能坑）
 
-## 控制台
+## Excel
+
+### [davyxu/tabtoy](https://github.com/davyxu/tabtoy)
+
+竞品……
+
+## 命令行
+
+### [spf13/cobra](https://github.com/spf13/cobra)
+
+制造具备现代气息的控制台交互库，可以提供命令解析和组织。
+
+## 代码管理与持续集成
+
+### [go-gitea/gitea](https://github.com/go-gitea/gitea)
+
+老朋友不解释。
+
+### [drone/drone](https://github.com/drone/drone)
+
+很出名纯备忘。
+
+## 微服务
+
+### [go-kit/kit](https://github.com/go-kit/kit)
+
+一套完整的微服务框架，很有学习价值。
+
+## 前端
+
+### [gopherjs/gopherjs](https://github.com/gopherjs/gopherjs)
+
+把go编译成js，感觉我跟java系八字不合，也许能解决部分问题。
+
+### [andlabs/ui](https://github.com/andlabs/ui)
+
+一个跨平台的UI库，如果在mac下运行，需要使用open命令才能顺利打开。
 
 ### [AlecAivazis/survey](https://github.com/AlecAivazis/survey)
 
 快速实现交互型控制台应用（根据N个问题，接受控制台输入），提供更友好的表现。
 
-## UI
+## 游戏
 
-### [andlabs/ui](https://github.com/andlabs/ui)
+### [hajimehoshi/ebiten](https://github.com/hajimehoshi/ebiten)
 
-一个跨平台的UI库，如果在mac下运行，需要使用open命令才能顺利打开。
+一个已经商业化的引擎，做了多款的手游开发。支持的平台非常广，用这个游戏引擎做出的游戏能够支持 PC 操作系统如 Windows、Mac、Linux、FreeBSD，也支持手机操作系统 Android、iOS，还支持 Web 开发如 GopherJS、WebAssembly。它是一个生产级的引擎。
+
+## 程序设计
+
+### [tmrts/go-patterns](https://github.com/tmrts/go-patterns)
+
+各种设计模式在golang的实现模板，仅供参考。
