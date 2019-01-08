@@ -218,7 +218,9 @@ Golang的MySql代理，致力于简化MySQL分库分表操作；能够让DBA通�
 
 ### [andlabs/ui](https://github.com/andlabs/ui)
 
-一个跨平台的UI库，如果在mac下运行，需要使用open命令才能顺利打开。
+一个跨平台的UI库，如果在mac下运行，需要使用open并把可执行文件改成`*.app`才能顺利打开。
+
+> 囧：`/usr/bin/open you_bin.app`
 
 ### [AlecAivazis/survey](https://github.com/AlecAivazis/survey)
 
