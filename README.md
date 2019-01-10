@@ -40,6 +40,10 @@ golang版hystrix，一个容错库，旨在隔离指向远程系统，服务和�
 
 官方对ws的支持有点忧桑吖，还好有……
 
+### [skywind3000/kcp](https://github.com/skywind3000/kcp)
+
+面向移动端游戏的TCP替代品，能以比TCP浪费10%-20%的带宽的代价，换取平均延迟降低 30%-40%，且最大延迟降低三倍的传输效果。纯算法实现，并不负责底层协议（如UDP）的收发，需要使用者自己定义下层数据包的发送方式，以 callback的方式提供给 KCP。 连时钟都需要外部传递进来，内部不会有任何一次系统调用。
+
 ## 链路追踪
 
 ### [jaegertracing/jaeger](https://github.com/jaegertracing/jaeger)
@@ -73,6 +77,10 @@ Doorman 是一个客户端速率限制的解决方案，客户端与共享资源
 ### [lni/dragonboat](https://github.com/lni/dragonboat)
 
 一个完整的Raft算法库，自带很多工具的样子，据说有足够完整的测试集合以及实际应用，而且有中文文档😶
+
+### [chrislusf/gleam](https://github.com/chrislusf/gleam)
+
+纯go实现的MapReduce库。
 
 ## 消息队列
 
@@ -204,6 +212,10 @@ Golang的MySql代理，致力于简化MySQL分库分表操作；能够让DBA通�
 
 很出名纯备忘。
 
+### [dominikh/go-tools](https://github.com/dominikh/go-tools)
+
+一组golang代码质量管理工具链。
+
 ## 微服务
 
 ### [go-kit/kit](https://github.com/go-kit/kit)
@@ -241,3 +253,9 @@ Golang的MySql代理，致力于简化MySQL分库分表操作；能够让DBA通�
 ### [tmrts/go-patterns](https://github.com/tmrts/go-patterns)
 
 各种设计模式在golang的实现模板，仅供参考。
+
+## 无所不能的其他
+
+### [influxdata/influxql](https://github.com/influxdata/influxql)
+
+influxql的语法解析器，用来学怎么实现自己的语言……
