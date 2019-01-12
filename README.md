@@ -170,6 +170,10 @@ Golang的MySql代理，致力于简化MySQL分库分表操作；能够让DBA通�
 
 爬虫工具，直接结合[PuerkitoBio/goquery](https://github.com/szyhf/my-go#puerkitobiogoquery)服用效果更佳。
 
+### [Knetic/govaluate](https://github.com/Knetic/govaluate)
+
+可以按照一般的数学逻辑解析表达式并执行，支持参数！
+
 ## 机器学习
 
 ### [esimov/pigo](https://github.com/esimov/pigo)
