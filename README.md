@@ -238,6 +238,14 @@ Golang的MySql代理，致力于简化MySQL分库分表操作；能够让DBA通�
 
 > 囧：`/usr/bin/open you_bin.app`
 
+### [lxn/walk](https://github.com/lxn/walk)
+
+一个Windows的GUI工具库。
+
+### [murlokswarm/app](https://github.com/murlokswarm/app)
+
+一个用`go`做`Web App`的框架，感觉类似`Electron`。
+
 ### [AlecAivazis/survey](https://github.com/AlecAivazis/survey)
 
 快速实现交互型控制台应用（根据N个问题，接受控制台输入），提供更友好的表现。
