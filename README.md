@@ -40,6 +40,14 @@ golang版hystrix，一个容错库，旨在隔离指向远程系统，服务和�
 
 官方对ws的支持有点忧桑吖，还好有……
 
+### [gobwas/ws](https://github.com/gobwas/ws)
+
+一个更高性能(?)的ws库。
+
+### [tidwall/evio](https://github.com/tidwall/evio)
+
+基于事件回调实现的网络库，可以用于优化一个conn一个goroutine的问题。
+
 ### [skywind3000/kcp](https://github.com/skywind3000/kcp)
 
 面向移动端游戏的TCP替代品，能以比TCP浪费10%-20%的带宽的代价，换取平均延迟降低 30%-40%，且最大延迟降低三倍的传输效果。纯算法实现，并不负责底层协议（如UDP）的收发，需要使用者自己定义下层数据包的发送方式，以 callback的方式提供给 KCP。 连时钟都需要外部传递进来，内部不会有任何一次系统调用。
