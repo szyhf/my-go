@@ -2,7 +2,7 @@
 
 随便写写，随缘维护。
 
-## 文档检索
+## 文档字符串
 
 ### [blevesearch/bleve](https://github.com/blevesearch/bleve)
 
@@ -24,6 +24,10 @@
 
 Golang基于DFA算法实现的敏感词过滤
 
+### [gobwas/glob](https://github.com/gobwas/glob)
+
+一个高性能的字符串（通配符？）匹配库，适用特定场景的字符串匹配，性能高于regexp。
+
 ## 网络
 
 ### [funny/snet](https://github.com/funny/snet)
@@ -42,7 +46,7 @@ golang版hystrix，一个容错库，旨在隔离指向远程系统，服务和�
 
 ### [gobwas/ws](https://github.com/gobwas/ws)
 
-一个更高性能(?)的ws库。
+一个更高性能(。)的ws库。
 
 ### [tidwall/evio](https://github.com/tidwall/evio)
 
@@ -279,3 +283,7 @@ Golang的MySql代理，致力于简化MySQL分库分表操作；能够让DBA通�
 ### [influxdata/influxql](https://github.com/influxdata/influxql)
 
 influxql的语法解析器，用来学怎么实现自己的语言……
+
+### [eranyanay/1m-go-websockets](https://github.com/eranyanay/1m-go-websockets)
+
+高性能网络层参考……
