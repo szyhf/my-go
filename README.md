@@ -128,7 +128,7 @@ Golang的MySql代理，致力于简化MySQL分库分表操作；能够让DBA通�
 
 ### [influxdata/influxdb](https://github.com/influxdata/influxdb)
 
-嗯很出名不解释。
+嗯很出名不解释（商业版本支持分布式，没有足够算力前提下是玩具）。
 
 ### [prometheus/prometheus](https://github.com/prometheus/prometheus)
 
@@ -287,3 +287,18 @@ influxql的语法解析器，用来学怎么实现自己的语言……
 ### [eranyanay/1m-go-websockets](https://github.com/eranyanay/1m-go-websockets)
 
 高性能网络层参考……
+
+## 工具库
+
+### [mitchellh/mapstructure](https://github.com/mitchellh/mapstructure)
+
+可以把一个`map`结构解析到一个`struct`里边
+
+
+### [spf13/pflag](https://github.com/spf13/pflag)
+
+可以替换系统原生的falg包，以实现更加友好的格式。
+
+### [spf13/viper](https://github.com/spf13/viper)
+
+看起来是个功能足够丰富且符合预期的配置文件读写库。
